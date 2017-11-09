@@ -1,0 +1,58 @@
+html,button,input,select,textearea {
+color : #444;
+}
+
+html {
+	font-size: 1em;
+	line-height:1.4;
+    background-color:#F8F9F9;
+}
+
+
+
+#wrapper{
+	min-width:900px;
+	max-width:320px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img{
+	float:right;
+	border: 1px solid #ccc;
+	background-color:white;
+	border-radius:3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	
+
+	
+	
+}
+	
+h1
+{ 
+color: #e81f2f;
+font-family: abel, sans-serif;
+    margin-bottom: 0px;
+
+}
+
+hr{
+    border-color:#e81f2f;
+	line-height: 5;
+	float:right;
+	width:80%
+}
+
+h2{
+	font-family: alegreya, serif;
+	text-align: center;
+	color: #e81f2f;
+	font-size:22px;
+}
+
+
