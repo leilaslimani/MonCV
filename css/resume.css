@@ -19,6 +19,7 @@ html {
     left: 0;
     right: 0;
     margin: auto;
+	
 }
 
 img{
@@ -105,4 +106,13 @@ section{
 	font-size:12px;
 	float:right;
 	width:90%;
+}
+
+footer{
+clear:both;
+text-align:center;
+}
+
+h3{
+	font-family: bebas-neue, sans-serif;
 }
