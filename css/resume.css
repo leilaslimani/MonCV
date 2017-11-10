@@ -8,8 +8,6 @@ html {
     background-color:#F8F9F9;
 }
 
-
-
 #wrapper{
 	min-width:900px;
 	max-width:320px;
@@ -29,11 +27,7 @@ img{
 	border-radius:3px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	height:200px;
-	width:200px
-	
-
-	
-	
+	width:200px	
 }
 	
 h1
@@ -80,7 +74,6 @@ dt {
 dd {
   float: left;
   width: 70%;
-
   padding: 0;
   margin: 0
 }
