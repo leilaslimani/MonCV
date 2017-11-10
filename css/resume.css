@@ -1,0 +1,123 @@
+html,button,input,select,textearea {
+color : #444;
+}
+
+html {
+	font-size: 1em;
+	line-height:1.4;
+    background-color:#F8F9F9;
+}
+
+
+
+#wrapper{
+	min-width:900px;
+	max-width:320px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	
+}
+
+img{
+	float:right;
+	border: 1px solid #ccc;
+	background-color:white;
+	border-radius:3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	height:200px;
+	width:200px
+	
+
+	
+	
+}
+	
+h1
+{ 
+color: #e81f2f;
+font-family: bebas-neue, sans-serif;
+margin-bottom: 0px;
+
+}
+
+hr{
+    border-color:#e81f2f;
+	line-height: 5;
+	float:right;
+	width:80%;
+	margin-top: 34px;
+	
+}
+
+h2{
+	font-family: alegreya, serif;
+	text-align: center;
+	color: #e81f2f;
+	font-size:22px;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+
+  padding: 0;
+  margin: 0
+}
+dt {
+	font-family: bebas-neue, sans-serif;
+	color: #e81f2f;
+	font-size:16px;
+	font-style:bold;
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 70%;
+
+  padding: 0;
+  margin: 0
+}
+
+ul{
+	
+	float: right;
+  width: 70%;
+  padding: 0;
+  margin: 0
+}
+
+section{
+	clear:both;
+}
+
+.sous-titre{
+	font-family: raleway, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	clear:both;
+	 
+}
+
+.info{
+    font-family: raleway, sans-serif;
+	font-size:12px;
+	float:right;
+	width:90%;
+}
+
+footer{
+clear:both;
+text-align:center;
+}
+
+h3{
+	font-family: bebas-neue, sans-serif;
+	float:left;
+}
