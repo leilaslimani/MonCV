@@ -6,10 +6,10 @@ body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
 	width:100%;
-
+ 
 }
 img{
-	
+	  border-radius: 50%;
 	float:none;
 }
 }
@@ -28,6 +28,10 @@ body,h1,h2,h3,dd,ul,li,hr{
 	width:100%;
     
 }
+img{
+	  border-radius: 50%;
+	float:none;
+}
 }
 
 @media only screen and (max-width:480px){
@@ -44,6 +48,10 @@ body,h1,h2,h3,dd,ul,li,hr{
 	float:none;
 	width:100%;
 	
+}
+img{
+	  border-radius: 50%;
+	float:none;
 }
 }
 
