@@ -2,9 +2,10 @@
 #wrapper{
 float:right;}
 
-body,h1,h2,h3,dl,dt,dd,ul,li,hr{
+body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
+	width:100%;
 
 }
 img{
@@ -21,9 +22,10 @@ all{
 	float:none;
 	width:100%
 }
-body,h1,h2,h3,dl,dt,dd,ul,li,hr{
+body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
+	width:100%;
     
 }
 }
@@ -37,9 +39,10 @@ all{
 	float:none;
 	width:100%
 }
-body,h1,h2,h3,dl,dt,dd,ul,li,hr{
+body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
+	width:100%;
 	
 }
 }
