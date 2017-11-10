@@ -69,15 +69,12 @@ dt {
 	font-style:bold;
   float: left;
   width: 30%;
-  /* adjust the width; make sure the total of both is 100% */
- 
   padding: 0;
   margin: 0
 }
 dd {
   float: left;
   width: 70%;
-  /* adjust the width; make sure the total of both is 100% */
 
   padding: 0;
   margin: 0
@@ -87,8 +84,6 @@ ul{
 	
 	float: right;
   width: 70%;
-  /* adjust the width; make sure the total of both is 100% */
-
   padding: 0;
   margin: 0
 }
@@ -102,11 +97,11 @@ section{
 	font-weight:bold;
 	font-size:13px;
 	clear:both;
-	
+	 
 }
 
 .info{
-		font-family: raleway, sans-serif;
+    font-family: raleway, sans-serif;
 	font-size:12px;
 	float:right;
 	width:90%;
