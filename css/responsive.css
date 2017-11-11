@@ -2,7 +2,7 @@
 #wrapper{
 float:right;}
 
-body{
+body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
 	width:100%;
@@ -11,10 +11,6 @@ body{
 img{
 	  border-radius: 50%;
 	float:none;
-}
-all{
-	float:none;
-	width:100%
 }
 }
 
@@ -26,16 +22,14 @@ all{
 	float:none;
 	width:100%
 }
-
-body{
+body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
 	width:100%;
+    
 }
-
-
 img{
-	border-radius: 50%;
+	  border-radius: 50%;
 	float:none;
 }
 }
@@ -45,21 +39,19 @@ img{
 width:100%;
 float:none;
 }
-
 all{
 	float:none;
 	width:100%
 }
-body{
+body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
 	width:100%;
-	font-size:16px;
 	
 }
 img{
 	  border-radius: 50%;
-	  float:none;
+	float:none;
 }
 }
 
