@@ -6,12 +6,14 @@ body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
 	width:100%;
+	font-size: 2em;
  
 }
 img{
 	  border-radius: 50%;
 	float:none;
 }
+
 }
 
 @media only screen and (max-width:570px){
@@ -26,12 +28,14 @@ body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
 	width:100%;
+	font-size: 2em;
     
 }
 img{
 	  border-radius: 50%;
 	float:none;
 }
+
 }
 
 @media only screen and (max-width:480px){
@@ -39,6 +43,7 @@ img{
 width:100%;
 float:none;
 }
+
 all{
 	float:none;
 	width:100%
@@ -46,6 +51,7 @@ all{
 body,h1,h2,h3,dd,ul,li,hr{
 	text-align:center;
 	float:none;
+	font-size: 2em;
 	width:100%;
 	
 }
