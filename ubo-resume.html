@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
 <title>Mon CV</title>
 <meta name="description" content="A propos de moi">
@@ -13,7 +14,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif-->
+
 </head>
 <body>
 		 <div id="wrapper">
@@ -183,5 +185,12 @@
 		 </div>
 		 
 <script src="//use.edgefonts.net/abel;alegreya;advent-pro;bebas-neue:n4;raleway.js"></script>
+<script>
+$.each( $('*'), function() { 
+    if( $(this).width() > $('body').width()) {
+        console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
+    } 
+});
+</script>
 </body>
 </html>

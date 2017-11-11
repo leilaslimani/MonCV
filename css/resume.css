@@ -19,7 +19,9 @@ html {
     margin: auto;
 	
 }
-
+body{
+	width:100%;
+}
 img{
 	float:right;
 	border: 1px solid #ccc;
