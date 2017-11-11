@@ -18,25 +18,27 @@
 
 </head>
 <body>
-		 <div id="wrapper">
+		 <div id="wrapper" itemscope itemtype="http://schema.org/Person">
 		 <header> 
-		        <img src="leila.png" /> 
-				<h1>  SLIMANI <span style="color:black">Leila</span>
+		        <img itemprop="image" src="leila.png" alt="Photo de leila" /> 
+				<h1 itemprop="name"> <span itemprop="familyName"> SLIMANI </span><span itemprop="givenName" style="color:black">Leila</span>
 				</h1>
 				
 				<div> 25 ans <br/>
-				Marocaine    <br/>
-				<i class="fa fa-phone" aria-hidden="true">   +33659405599 </i><br/>
-				<i class="fa fa-envelope" aria-hidden="true">  slimanii.leila@gmail.com </i> <br/>
-				<i class="fa fa-address-card-o" aria-hidden="true">  4,Rue des Archives, Residence universitaire de Kergoat,France </i><br/>
+				<span itemprop="nationality">Marocaine    <br/></span>
+				<span itemprop="telephone"><i class="fa fa-phone" aria-hidden="true">   +33659405599 </i><br/></span>
+				<span itemprop="email"><i class="fa fa-envelope" aria-hidden="true">  slimanii.leila@gmail.com </i> <br/></span>
+				<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<i class="fa fa-address-card-o" aria-hidden="true"> <span itemprop="streetAddress"> 4,Rue des Archives, </span> Residence universitaire de Kergoat, <span itemprop="addressLocality">France</span> </i><br/>
+				</div>
 				<i class="fa fa-car" aria-hidden="true">   Permis de conduire B  </i><br/>			
 				</div>
 		         <br/><br/><br/>
 				 
-				<h2> Etudiante en Master 2 Developpement lOgiciel des Systèmes d'Information </h2> 				
+				<h2  itemprop="hasOccupation"> Etudiante en Master 2 Developpement lOgiciel des Systèmes d'Information </h2> 				
 				<br/>
 		</header>
-		<article>
+		<article >
 			<section>
 				 <h3> <i class="fa fa-graduation-cap" aria-hidden="true"></i>  Formations </h3> <hr> 
 					<dl>
@@ -174,9 +176,9 @@
 		</article>
 		
 		<footer>
-			 <i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/leiilaa.Sll" > Facebook</a> 
-			 <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/leila-slimani/" > LinkedIn</a> 
-			 <i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/leilaslimani" > Github</a> 
+			 <i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/leiilaa.Sll"itemprop="url"> Facebook</a> 
+			 <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/leila-slimani/" itemprop="url" > LinkedIn</a> 
+			 <i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/leilaslimani" itemprop="url"> Github</a> 
 		 </footer>
 
 		 <br>
@@ -185,12 +187,5 @@
 		 </div>
 		 
 <script src="//use.edgefonts.net/abel;alegreya;advent-pro;bebas-neue:n4;raleway.js"></script>
-<script>
-$.each( $('*'), function() { 
-    if( $(this).width() > $('body').width()) {
-        console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
-    } 
-});
-</script>
 </body>
 </html>
